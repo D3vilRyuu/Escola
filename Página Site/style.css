@@ -1,0 +1,83 @@
+#menu {
+    text-align: center;
+    margin: 0 auto;
+    width: 920px;
+}
+
+#menu img{
+    width: 600px;
+    border-radius: 6px;
+    border: solid;
+    border-color: blue;
+
+}
+
+#navmenu{
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#navmenu ul li{
+    display: inline;
+}
+
+#navmenu ul li a{
+    color: yellow;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navmenu ul li a:hover{
+    background-color: rgb(18, 196, 18);
+}
+
+#menu ul{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*////Pagina Calendario////*/
+
+#navmenu2{
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#navmenu2 ul li{
+    display: inline;
+}
+
+#navmenu2 ul li a{
+    color: yellow;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navmenu2 ul li a:hover{
+    background-color: rgb(18, 196, 18);
+}
+
+/*////Pagina História////*/
+
+
+#navmenu3{
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#navmenu3 ul li{
+    display: inline;
+}
+
+#navmenu3 ul li a{
+    color: yellow;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navmenu3 ul li a:hover{
+    background-color: rgb(18, 196, 18);
+}
