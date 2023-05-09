@@ -37,6 +37,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flexbox-container{
+    border: 2px solid;
+    border-color: blue;
+    /* flex-direction: column | column-reverse | row | row-reverse; */
+}
 /*////Pagina Calendario////*/
 
 #navmenu2{
