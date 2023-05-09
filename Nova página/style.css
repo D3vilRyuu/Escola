@@ -1,0 +1,27 @@
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+
+#ladoesquerdo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+}
+
+#ladodireito{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+}
