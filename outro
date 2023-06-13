@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Minha imagem</h1>
+        <div id="imagem">
+
+        </div><br>
+        <button id="adicionar" onclick="carregar()">Carregar imagem</button>
+        <button id="remover" onclick="remover()">Remover imagem</button>
+    </center>
+    <script>
+        var div = document.getElementById("imagem")
+        function carregar() {
+            var imagem = document.createElement('img')
+
+            imagem.src = "nationalgeographic2723148-copia.jpg"
+            imagem.style.width = "300px"
+            imagem.style.height = "500px"
+            div.appendChild(imagem)
+        }
+
+    
+
+    </script>
+</body>
+
+</html>
