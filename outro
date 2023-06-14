@@ -15,7 +15,6 @@
 
         </div><br>
         <button id="adicionar" onclick="carregar()">Carregar imagem</button>
-        <button id="remover" onclick="remover()">Remover imagem</button>
     </center>
     <script>
         var div = document.getElementById("imagem")
