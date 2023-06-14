@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <label><strong>Digite: Sol, Chuva ou Raios</strong></label><br><br>
+        <input type="text" id="texto">
+        <button onclick="imagem()">Enviar</button><br><br>
+
+        <div id="quadrado">
+
+        </div>
+
+        <div id="texto2">
+
+        </div>
+    </center>
+
+    <script>
+
+        function imagem() {
+            var foto = document.getElementById("quadrado")
+            var texto = document.getElementById("texto").value
+            var imagem = document.createElement("img")
+            var texto2 = document.getElementById("texto2")
+
+            if (texto == "Sol") {
+
+                imagem.src = "sol.jpg"
+                imagem.style.width = "300px"
+                imagem.style.height = "300px"
+                texto2.innerText = "O sol é uma grande estrela"
+
+                foto.appendChild(imagem)
+            } else if (texto == "Chuva") {
+
+                imagem.src = "01142306_37975_GDO.jpg"
+                imagem.style.width = "300px"
+                imagem.style.height = "300px"
+                texto2.innerText = "A chuva rega as plantas "
+
+                foto.appendChild(imagem)
+
+            } else if (texto == "Raios") {
+
+                imagem.src = "raios-e-trovoes-hd.jpg"
+                imagem.style.width = "300px"
+                imagem.style.height = "300px"
+                texto2.innerText = "Os raios causam desastres"
+
+                foto.appendChild(imagem)
+            }
+        }
+
+    </script>
+</body>
+
+</html>
+
+#quadrado{
+    border: 1px solid blueviolet;
+    width: 300px;
+    height: 300px;
+}
