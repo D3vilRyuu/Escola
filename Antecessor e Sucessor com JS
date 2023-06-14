@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Sucessor e Antecessor</h1><br>
+        <label>Numero Aqui</label><br><br>
+        <input id="numero" type="number"><br><br>
+        <button id="botao" onclick="butao()">ENVIAR</button>
+        <div id="texto">
+
+        </div>
+    </center>
+
+
+    <script>
+
+
+
+        function butao() {
+            var num = document.getElementById("numero").value
+            var texto = document.getElementById("texto")
+            antecessor = num - 1
+            sucessor = Number(num)+ 1
+
+            texto.innerText = "O antecessor do seu numero é " + antecessor + " O seu numero é " + num + " O seu sucessor será " + sucessor
+
+        }
+
+
+    </script>
+</body>
+
+</html>
