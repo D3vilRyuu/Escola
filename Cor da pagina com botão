@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="corpo">
+    <button id="Azul" onclick="cor('blue')">BLUE</button>
+    <button id="Vermelho" onclick="cor('red')">RED</button>
+    <button id="Amarelo" onclick="cor('yellow')">YELLOW</button>
+    <button id="Rosa" onclick="cor('pink')">PINK</button>
+    <button id="Verde" onclick="cor('green')">GREEN</button>
+
+
+
+    <script>
+
+        function cor(color){
+            var corpo = document.getElementById("corpo")
+
+            corpo.style.backgroundColor = color 
+        }
+
+    </script>
+</body>
+</html>
