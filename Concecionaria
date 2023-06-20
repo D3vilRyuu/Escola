@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Carros</h1>
+
+    <table id="tabela">
+        <tr>
+            <td>Carros</td>
+
+        </tr>
+        <tr>
+            <td>1- Gol 1.6</td>
+
+        </tr>
+        <tr>
+            <td>2- Saveiro 1.8</td>
+
+        </tr>
+        <tr>
+
+            <td>3- Fiat Touro</td>
+
+        </tr>
+        <tr>
+            <td>4- Susuki Vitara</td>
+
+        </tr>
+        <tr>
+            <td>5- Corolla</td>
+
+        </tr>
+    </table><br>
+
+    <label>Escolha o numero do carro que deseja</label>
+    <input id="texto" oninput="preco()" type="text">
+
+
+    <div id="local">
+
+    </div>
+
+    <script>
+
+        function preco() {
+            var preco = document.getElementById("texto").value
+            var texto = document.getElementById("local")
+
+            switch (preco) {
+                case "1":
+                    texto.innerText = "Preço R$48.000,00"
+                    break;
+                case "2":
+                    texto.innerText = "Preço R$56.500,00"
+                    break;
+                case "3":
+                    texto.innerText = "Preço R$87.390,00"
+                    break;
+                case "4":
+                    texto.innerText = "Preço R$169.880,00"
+                    break;
+                case "5":
+                    texto.innerText = "Preço R$77.360,00"
+                    break;
+                default:
+                    texto.innerText = "Defina um valor valido!"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
