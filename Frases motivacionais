@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <label><strong>Frases Motivacionais</strong></label><br><br>
+        <label><strong>Digite um numero de 1 a 5:</strong></label><br><br>
+        <input type="text" id="texto">
+        <button onclick="imagem()">Enviar</button><br><br>
+
+        <div id="quadrado">
+
+        </div>
+
+        <div id="texto2">
+
+        </div>
+    </center>
+
+    <script>
+
+        function imagem() {
+            var foto = document.getElementById("quadrado")
+            var texto = document.getElementById("texto").value
+            var imagem = document.createElement("img")
+            var texto2 = document.getElementById("texto2")
+
+            switch (texto) {
+                case "1":
+                    imagem.src = "Blue-Nature-Documentary-Film-YouTube-Thumbnail.webp"
+                    imagem.style.width = "300px"
+                    imagem.style.height = "300px"
+                    texto2.innerText = "Acredite mais em você"
+
+                    foto.appendChild(imagem)
+                    break
+                case "2":
+                    imagem.src = "adesivo-parede-decorativo-frase-motivacional-inspire-o-mundo-parede.jpg"
+                    imagem.style.width = "300px"
+                    imagem.style.height = "300px"
+                    texto2.innerText = "Inspire o mundo ao seu redor"
+
+                    foto.appendChild(imagem)
+                    break
+                case "3":
+                    imagem.src = "malu_pires-2023-03-08T125954.435.jpg"
+                    imagem.style.width = "300px"
+                    imagem.style.height = "300px"
+                    texto2.innerText = "Você só vai vencer amanhã se não desistir hoje"
+
+                    foto.appendChild(imagem)
+                    break
+                case "4":
+                    imagem.src = "NAO-TENHA-MEDO-DO-NOVO.webp"
+                    imagem.style.width = "300px"
+                    imagem.style.height = "300px"
+                    texto2.innerText = "Não tenha medo do novo "
+
+                    foto.appendChild(imagem)
+                    break
+                case "5":
+                    imagem.src = "quadro_decorativo_frase_motivacional_7303_1_20201029155928.webp"
+                    imagem.style.width = "300px"
+                    imagem.style.height = "300px"
+                    texto2.innerText = "Durma com ideias acorde com atitudes"
+
+                    foto.appendChild(imagem)
+                    break
+                default:
+                    texto2.innerText = "Defina um valor válido"
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
+
+
+#quadrado{
+    border: 1px solid blueviolet;
+    width: 300px;
+    height: 300px;
+}
