@@ -1,0 +1,23 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FD29;
+}
+
+.box{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 100px 5px #969C00 ;
+    border: solid #F5FD29;
+}
