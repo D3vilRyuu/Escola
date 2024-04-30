@@ -10,14 +10,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F5FD29;
+    /* background-color: #99BC85; */
+    background: url(/SingUpPage/wallpaperbetter.jpg);
 }
 
 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     height: 450px;
-    background-color: white;
+    background-color: #BFD8AF;
     border-radius: 20px;
-    box-shadow: 5px 5px 100px 5px #969C00 ;
-    border: solid #F5FD29;
+    box-shadow: 5px 5px 20px 1px black ;
+
+}
+
+.GENERO{
+    display: flex;
 }
